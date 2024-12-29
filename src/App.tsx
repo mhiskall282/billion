@@ -1,28 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Programs from './pages/Programs';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import './styles/globals.css';
+import { Header } from './components/layout/Header';
+import { Hero } from './components/home/Hero';
+import { Services } from './components/home/Services';
+import { About } from './components/home/About';
+import { Executives } from './components/home/Executives';
+import { Contact } from './components/home/Contact';
+import { Donate } from './components/home/Donate';
+import { Footer } from './components/layout/Footer';
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen bg-black">
-        <Navbar />
-        <main className="pt-16">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/programs" element={<Programs />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-      </div>
-    </Router>
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <Services />
+        <About />
+        <Executives />
+        <Contact />
+        <Donate />
+      </main>
+      <Footer />
+    </div>
   );
 }
-
 export default App;
