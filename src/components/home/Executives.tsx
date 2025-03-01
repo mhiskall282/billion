@@ -1,7 +1,7 @@
 import React from 'react';
 import { Linkedin, Mail } from 'lucide-react';
 import { Card } from '../ui/Card';
-import noMoreWalls from '../assets/images/nomorewalls.jpg';
+import noMoreWalls from './assets/images/nomorewalls.jpg';
 
 
 const executives = [
