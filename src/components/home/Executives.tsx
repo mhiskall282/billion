@@ -20,6 +20,14 @@ const executives = [
     email: 'obroni@example.com',
     bio: 'Obroni specializes in immigration law and has helped thousands of clients achieve their goals.',
   },
+   {
+    name: 'Asaana',
+    role: 'Head of Legal Services',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400',
+    linkedin: '#',
+    email: 'obroni@example.com',
+    bio: 'Asaana specializes in immigration law and has helped thousands of clients achieve their goals.',
+  },
   {
     name: 'Influenxer AY',
     role: 'Director of Immigration',
