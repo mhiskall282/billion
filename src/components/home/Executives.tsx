@@ -6,7 +6,7 @@ const executives = [
   {
     name: 'Dr Hayford NoMore Walls',
     role: 'Chief Executive Officer',
-    image: 'https://scontent.facc6-1.fna.fbcdn.net/v/t39.30808-6/471178149_28299990476280983_3146541980148423006_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeHBx6pyLWRxTyziwIrxSz3sczcy5IqWZUNzNzLkipZlQxhK_RsPkuJevJkskvMz3TmT-8_vFdNAVvUTZiD8r6kB&_nc_ohc=XAoA6ItzVdoQ7kNvgGNZ7yQ&_nc_zt=23&_nc_ht=scontent.facc6-1.fna&_nc_gid=AJn_KKxhkfmNmvDrKr2a6zk&oh=00_AYB35D0CTX0EWToJBcKZ9bxZ9IW9vSswq2B-DgNSinVNZA&oe=67768CC5',
+    image: '',
     linkedin: '#',
     facebook: '#',
     email: 'nomorewalls@gmail.com',
