@@ -6,7 +6,7 @@ const executives = [
   {
     name: 'Dr Hayford NoMore Walls',
     role: 'Chief Executive Officer',
-    image: './assets/images/nomorewalls.jpg',
+    image: '/assets/images/asaana.jpg',
     linkedin: '#',
     facebook: '#',
     email: 'nomorewalls@gmail.com',
