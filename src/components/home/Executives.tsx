@@ -1,14 +1,13 @@
 import React from 'react';
 import { Linkedin, Mail } from 'lucide-react';
 import { Card } from '../ui/Card';
-import noMoreWalls from './assets/images/nomorewalls.jpg';
 
 
 const executives = [
   {
     name: 'Dr Hayford NoMore Walls',
     role: 'Chief Executive Officer',
-    image: noMoreWalls,
+    image:'',
     linkedin: '#',
     facebook: '#',
     email: 'nomorewalls@gmail.com',
