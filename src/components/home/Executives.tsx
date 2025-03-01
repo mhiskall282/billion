@@ -13,6 +13,7 @@ const executives = [
     email: 'nomorewalls@gmail.com',
     bio: 'Hayford brings over 20 years of experience in international business and immigration services.',
   },
+
   {
     name: 'Obroni ',
     role: 'Head of Legal Services',
